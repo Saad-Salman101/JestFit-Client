@@ -1,5 +1,5 @@
 // sections
-import { ContactView } from 'src/sections/contact/view';
+// import { ContactView } from 'src/sections/contact/view';
 
 // ----------------------------------------------------------------------
 
@@ -8,5 +8,6 @@ export const metadata = {
 };
 
 export default function ContactPage() {
-  return <ContactView />;
+  // return <ContactView />;
+  return <h1>123</h1>;
 }
