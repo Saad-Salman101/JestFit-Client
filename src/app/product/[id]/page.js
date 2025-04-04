@@ -16,14 +16,6 @@ export default function ProductShopDetailsPage({ params }) {
   return <ProductShopDetailsView id={id} />;
 }
 
-export async function generateStaticParams() {
-  const res = await axios.get(endpoints.product.list);
-
-  return res.data.products.map((product) => ({
-    id: product.id,
-  }));
-}
-
 ProductShopDetailsPage.propTypes = {
   params: PropTypes.shape({
     id: PropTypes.string,
