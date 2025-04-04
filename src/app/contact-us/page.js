@@ -9,5 +9,5 @@ export const metadata = {
 
 export default function ContactPage() {
   // return <ContactView />;
-  return <h1>123</h1>;
+  return <h1>1234</h1>;
 }
